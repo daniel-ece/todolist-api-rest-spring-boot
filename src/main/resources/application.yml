@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: todolist
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/todolist?autoreconnect=true"
+    username: "root"
+    password: "root"
+flyway:
+  url: jdbc:mysql://localhost:3306/mysql
+  schemas: todolist
+  user: "root"
+  password: "root"
